@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Movie container styling */
+#movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Movie card styling */
+.movie {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for movie cards */
+.movie:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Movie title styling */
+.movie h3 {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Movie description styling */
+.movie p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Genre and rating styling */
+.movie p strong {
+  font-weight: bold;
+}
+
+.movie p:last-child {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
